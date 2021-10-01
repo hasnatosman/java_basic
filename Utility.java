@@ -1,5 +1,5 @@
-public class Utility{
-	public static String generate_password(String x){
-		return x.toUpperCase() + Math.floor(Math.random()*10);
+class Utility{
+	public static String emailGenerator(String universityCode, int id){
+		return "s"+id+"@"+universityCode+".com";
 	}
 }
