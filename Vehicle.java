@@ -2,9 +2,10 @@ class Vehicle{
 	double speed;
 	
 	void go(){
-		System.out.println("This vehicle is moving!");
+		System.out.println("It is moving!");
 	}
+	
 	void stop(){
-		System.out.println("This vehicle is stopped!");
+		System.out.println("It is stopped!");
 	}
 }
